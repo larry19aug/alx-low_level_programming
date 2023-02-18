@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * printing size of various types on the computer it is compiled and run on
+ * main - Entry point, printing size of various types 
  *
  * Return: Always 0 (Success)
  */
