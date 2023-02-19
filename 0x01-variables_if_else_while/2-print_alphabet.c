@@ -1,14 +1,17 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
+ *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	char alphabet = 'a';
-	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
-	{	
-		putchar(alphabet);
+	char alp = 'a';
+	for (alp = 'a'; alp <= 'z'; alp++)
+	{
+		putchar(alp);
 	}
 	putchar('\n');
 	return (0);
