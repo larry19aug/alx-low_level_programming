@@ -1,34 +1,26 @@
 #include <stdio.h>
-
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	int i, n;
+	int n, i;
 
-	while (n < '10')
+	for (n  = '0'; n <= '9'; n++)
 	{
-		i = '0';
-
-		while (i < '10')
+		for (i = '0'; i <= '9'; i++)
 		{
-			if (n != i && n < i)
-			{
-				putchar(n);
-				putchar(i);
-				if (i == '9' && n == '7')
-				{
-					break;
-				}
-				putchar(',');
-				putchar(' ');
-			}
-			i++;
+			putchar(n);
+			putchar(i);
+
+			if (n == '9' && i == '9')
+				continue;
+			putchar(',');
+			putchar(' ');
 		}
-		n++;
 	}
 	putchar('\n');
 	return (0);
