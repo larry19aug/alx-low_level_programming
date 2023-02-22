@@ -11,5 +11,5 @@
 	char alp;
 	for (alp = 'a'; alp <= 'z'; alp++);
 	_putchar(alp);
-	_puctchar('\n');
+	_putchar('\n');
 }
