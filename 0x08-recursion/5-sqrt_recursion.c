@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * sqrt - find sqrt
+ * find_sqrt - find sqrt
  * @n: needs to be sqrt
  * @x: sqrt of n
  * Return: natural sqrt of n
